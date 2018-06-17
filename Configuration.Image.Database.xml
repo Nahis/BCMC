@@ -1,0 +1,78 @@
+<Entities>
+  <Entity name="contact">
+    <Fields>
+      <Field name="firstname" label="First Name" IsDisabled="0" includeInGrid="1" default="" required="1" />
+      <Field name="lastname" label="Last Name" IsDisabled="0" includeInGrid="1" default="" required="1" />
+      <Field name="jobtitle" label="Job Title" IsDisabled="0" includeInGrid="0" default="" required="0" />
+      <Field name="address1_line1" label="Address 1" IsDisabled="0" includeInGrid="0" default="undefined" required="0" />
+      <Field name="address1_line2" label="Address 2" IsDisabled="0" includeInGrid="0" default="undefined" required="0" />
+      <Field name="address1_city" label="City" IsDisabled="0" includeInGrid="0" default="" required="0" />
+      <Field name="address1_stateorprovince" label="State/Province" IsDisabled="0" includeInGrid="0" default="" required="0" />
+      <Field name="address1_postalcode" label="ZIP/Postal Code" IsDisabled="0" includeInGrid="0" default="" required="0" />
+      <Field name="telephone1" label="Business Phone" IsDisabled="0" includeInGrid="1" default="" required="0" />
+      <Field name="emailaddress1" label="E-mail" IsDisabled="0" includeInGrid="1" default="" required="1" />
+    </Fields>
+  </Entity>
+  <Entity name="new_hotel">
+    <Fields>
+      <Field name="new_name" label="Hotel Name" IsDisabled="0" includeInGrid="1" default="" required="1" />
+      <Field name="bcmc_address1" label="Address1" IsDisabled="0" includeInGrid="0" default="" required="1" />
+      <Field name="bcmc_address2" label="Address 2" IsDisabled="0" includeInGrid="0" default="" required="1" />
+      <Field name="bcmc_city" label="City" IsDisabled="0" includeInGrid="0" default="" required="1" />
+      <Field name="bcmc_zipcode" label="Zip Code" IsDisabled="0" includeInGrid="0" default="" required="1" />
+      <Field name="bcmc_mainphone" label="Main Phone" IsDisabled="0" includeInGrid="0" default="" required="1" />
+       <Field name="bcmc_ustatus" label="Union Status" IsDisabled="0" includeInGrid="0" default="" required="1" />
+      <Field name="new_hotelrooms" label="Number of Rooms" IsDisabled="0" includeInGrid="1" default="" required="1" />
+      <Field name="bcmc_accessiblerooms" label="" IsDisabled="0" includeInGrid="0" default="" required="1" />
+      <Field name="bcmc_doublerooms" label="" IsDisabled="0" includeInGrid="0" default="" required="1" />
+      <Field name="new_mobilstarrating" label="Forbes Star Rating" IsDisabled="0" includeInGrid="0" default="" required="1" />
+      <Field name="new_aaadiamondrating" label="AAA Diamond Rating" IsDisabled="0" includeInGrid="0" default="" required="1" />
+      <Field name="new_zone" label="Zone" IsDisabled="1" includeInGrid="0" default="" required="0" />
+      <Field name="new_proximitytobcec" label="Proximity to BCEC" IsDisabled="1" includeInGrid="0" default="undefined" required="0" />
+      <Field name="new_proximitytohynes" label="Proximity to Hynes" IsDisabled="1" includeInGrid="0" default="" required="0" />
+      <Field name="bcmc_distancetologan" label="Distance to Logan" IsDisabled="1" includeInGrid="0" default="" required="0" />
+      <Field name="bcmc_closestmbtastation" label="Closest MBTA Station" IsDisabled="1" includeInGrid="0" default="undefined" required="0" />
+      <Field name="bcmc_closestmbtaline" label="Closest MBTA Line" IsDisabled="1" includeInGrid="0" default="" required="0" />
+      <Field name="bcmc_website" label="Web Site" IsDisabled="0" includeInGrid="0" default="" required="1" />
+    </Fields>
+  </Entity>
+ <Entity name="bcmc_hotellead">
+    <Fields>
+      <linkednodes name="bcmc_hotellead">
+        <Field name="statuscode" label="Lead Status" type="status" position="6" />
+        <Field name="bcmc_lastsavedbyid" label="Last Responded By" type="lookup" position="17" />
+        <Field name="bcmc_hotelsalescontactid" label="Hotel Sales Contact" type="lookup" position="8" />
+        <Field name="bcmc_hotelid" label="Hotel" type="lookup" position="2" />
+      </linkednodes>
+      <linkednodes name="opportunity">
+        <Field name="name" label="Event Name" type="string" position="1" />
+        <Field name="bcmc_hotelleadresponsedate" label="Response Due Date" type="datetime" position="7" />
+        <Field name="new_peakhotelroomnights" label="Peak Room Nights" type="integer" position="11" />
+        <Field name="new_hotelroomnights" label="Total Room Nights" type="integer" position="12" />
+        <Field name="new_numberofattendees" label="Event Attendees" type="integer" position="13" />
+          <Field name="ownerid" label="BCMC Contact"  position="16" type="owner"  />
+
+        <Field name="opportunity.statuscode" label="Event Status" type="status" position="3" />
+      </linkednodes>
+      <linkednodes name="new_proposeddate">
+        <Field name="bcmc_arrivaldate" label="Arrival Date" type="datetime" position="4" />
+        <Field name="bcmc_departuredate" label="Departure Date" type="datetime" position="5" />
+        <Field name="bcmc_bldgbcec" label="BCEC" type="boolean" position="9" />
+        <Field name="bcmc_bldghynes" label="Hynes" type="boolean" position="10" />
+      </linkednodes>
+      <linkednodes name="account">
+        <Field name="accountcategorycode" label="Market Segment" type="picklist" position="14"  />
+        <Field name="address1_stateorprovince" label="State" type="string" position="15" />
+      </linkednodes>
+    </Fields>
+  </Entity>
+  <Entity name="actual_field_names" note="column should reflect production">
+      <Field entityname="opportunity" column="bcmc_subsidy" update="new_hotelsubsidy" note="image production difference" />
+      <Field entityname="opportunity" column="bcmc_economicimpact" update="opportunityid"  note="not in dev so removed for testing" />
+      <Field entityname="opportunity" column="bcmc_rebate" update="new_hotelrebate" note="image production difference" />
+      <Field entityname="opportunity" column="bcmc_commission" update="bcmc_commissiontype" note="image production difference" />
+      <Field entityname="opportunity" column="bcmc_housingfee_txt" update="bcmc_housingfee" note="image production difference" />
+      <Field entityname="opportunity" column="bcmc_hotelcommission" update="opportunityid"  note="not in dev so removed for testing" />
+      <Field entityname="bcmc_holidaycalendar" column="" update=""  exists="no" note="not in dev so removed for testing" />
+  </Entity>
+</Entities>

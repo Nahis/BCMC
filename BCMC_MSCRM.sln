@@ -1,0 +1,104 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebResources", "WebResources\WebResources.csproj", "{1993A170-EDAC-4B62-92BE-3B5937168BDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BCMC_RoomBlocksApp", "ISV\BCMC_RoomBlocksApp\BCMC_RoomBlocksApp.csproj", "{562BF066-CCD9-4292-9CB5-4C3279442376}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CRM Customer Portal", "CRM Customer Portal", "{64DAD095-304A-4CB5-AAE0-38D51329041D}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = ""
+		SccAuxPath = ""
+		SccLocalPath = ""
+		SccProvider = ""
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		Debug.AspNetCompiler.VirtualPath = "/Microsoft Dynamics CRM Customer Portal"
+		Debug.AspNetCompiler.PhysicalPath = "CRM Customer Portal\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Microsoft Dynamics CRM Customer Portal\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Microsoft Dynamics CRM Customer Portal"
+		Release.AspNetCompiler.PhysicalPath = "CRM Customer Portal\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Microsoft Dynamics CRM Customer Portal\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "52244"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ISV", "ISV", "{2C6CC940-57EC-430B-BF56-9A2975760C3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hotel_Picker", "ISV\Hotel_Picker\Hotel_Picker.csproj", "{875CA451-2E03-4225-9E64-AB2C038E7D2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloneOpportunity", "ISV\CloneOpportunity\CloneOpportunity\CloneOpportunity.csproj", "{87B86785-88FC-4AFA-84ED-BED2CEC0DF64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugins", "Plugins\Plugins.csproj", "{ED223F0A-BC87-4AB9-ADB9-DF3430BB0E2A}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 1
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://sentri-crm.visualstudio.com/defaultcollection
+		SccProjectUniqueName0 = ISV\\CloneOpportunity\\CloneOpportunity\\CloneOpportunity.csproj
+		SccProjectTopLevelParentUniqueName0 = BCMC_MSCRM.sln
+		SccProjectName0 = ISV/CloneOpportunity/CloneOpportunity
+		SccAuxPath0 = https://sentri-crm.visualstudio.com/defaultcollection
+		SccLocalPath0 = ISV\\CloneOpportunity\\CloneOpportunity
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1993A170-EDAC-4B62-92BE-3B5937168BDD}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{1993A170-EDAC-4B62-92BE-3B5937168BDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1993A170-EDAC-4B62-92BE-3B5937168BDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1993A170-EDAC-4B62-92BE-3B5937168BDD}.Release|.NET.ActiveCfg = Release|Any CPU
+		{1993A170-EDAC-4B62-92BE-3B5937168BDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1993A170-EDAC-4B62-92BE-3B5937168BDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{562BF066-CCD9-4292-9CB5-4C3279442376}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{562BF066-CCD9-4292-9CB5-4C3279442376}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{562BF066-CCD9-4292-9CB5-4C3279442376}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{562BF066-CCD9-4292-9CB5-4C3279442376}.Release|.NET.ActiveCfg = Release|Any CPU
+		{562BF066-CCD9-4292-9CB5-4C3279442376}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{562BF066-CCD9-4292-9CB5-4C3279442376}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64DAD095-304A-4CB5-AAE0-38D51329041D}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{64DAD095-304A-4CB5-AAE0-38D51329041D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64DAD095-304A-4CB5-AAE0-38D51329041D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64DAD095-304A-4CB5-AAE0-38D51329041D}.Release|.NET.ActiveCfg = Debug|Any CPU
+		{64DAD095-304A-4CB5-AAE0-38D51329041D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{64DAD095-304A-4CB5-AAE0-38D51329041D}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{875CA451-2E03-4225-9E64-AB2C038E7D2E}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{875CA451-2E03-4225-9E64-AB2C038E7D2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{875CA451-2E03-4225-9E64-AB2C038E7D2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{875CA451-2E03-4225-9E64-AB2C038E7D2E}.Release|.NET.ActiveCfg = Release|Any CPU
+		{875CA451-2E03-4225-9E64-AB2C038E7D2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{875CA451-2E03-4225-9E64-AB2C038E7D2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87B86785-88FC-4AFA-84ED-BED2CEC0DF64}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{87B86785-88FC-4AFA-84ED-BED2CEC0DF64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87B86785-88FC-4AFA-84ED-BED2CEC0DF64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87B86785-88FC-4AFA-84ED-BED2CEC0DF64}.Release|.NET.ActiveCfg = Release|Any CPU
+		{87B86785-88FC-4AFA-84ED-BED2CEC0DF64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87B86785-88FC-4AFA-84ED-BED2CEC0DF64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED223F0A-BC87-4AB9-ADB9-DF3430BB0E2A}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{ED223F0A-BC87-4AB9-ADB9-DF3430BB0E2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED223F0A-BC87-4AB9-ADB9-DF3430BB0E2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED223F0A-BC87-4AB9-ADB9-DF3430BB0E2A}.Release|.NET.ActiveCfg = Release|Any CPU
+		{ED223F0A-BC87-4AB9-ADB9-DF3430BB0E2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED223F0A-BC87-4AB9-ADB9-DF3430BB0E2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{562BF066-CCD9-4292-9CB5-4C3279442376} = {2C6CC940-57EC-430B-BF56-9A2975760C3D}
+		{875CA451-2E03-4225-9E64-AB2C038E7D2E} = {2C6CC940-57EC-430B-BF56-9A2975760C3D}
+		{87B86785-88FC-4AFA-84ED-BED2CEC0DF64} = {2C6CC940-57EC-430B-BF56-9A2975760C3D}
+	EndGlobalSection
+EndGlobal
