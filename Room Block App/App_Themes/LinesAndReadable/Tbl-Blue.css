@@ -1,0 +1,81 @@
+	<%-- Table Headers first, the rest afterwards 
+	gray lines: /*graytext*/ #868486; /*g*/  #D8D8D8
+	tan: #CE9A31; /*t*/
+	blue: #4682B4 /*b*/ background of title
+	blueish border: solid 2px #7286A2; /*bi*/
+	font white
+	gray bkground ?
+	<style type="text/css">
+	--%>
+	
+		/* size, padding, etc. */
+		table {
+			width: auto;
+		}
+		tr  th, 
+		tr  td,
+		tr input[type=text] {
+			width: auto;
+			padding-left: 6px;
+			padding-right: 6px;
+		}
+		
+		/* alignment */
+		th, td {
+			text-align: center;
+		}
+		tr input[type=text] {
+			text-align: center;
+		}
+		.dayOfWeekColumn {
+			text-align: left;
+		}
+		
+		
+		/* header  border/margins */
+		th {
+			border: 1px solid lightgray;
+			padding: 4px;
+			margin: 30px;
+		}
+
+		/*fonts*/
+		td,th {
+			--font-family: Arial, Helvetica, sans-serif;
+			--font-family: Tahoma,Verdana ,Arial;
+			font-family: Arial, Helvetica, sans-serif, "Arial Rounded MT Bold";
+			font-weight: normal;
+			font-size: 0.90em;
+		}
+		th {
+			font-weight: bold; 
+			color: white;
+			background-color: #4682B4; /*blu*/
+		}
+		td  input[type="text"] {
+			--font-size: 11px;
+			font: inherit;
+		}
+		
+		/*disabled*/
+		input[type='text']:disabled, 
+		input[id='txtActualPct']:disabled {
+			background-color: #f8f8f8;/*lightergray*/
+			background-color: #fafbe1;/*lightergray*/
+			color: black;
+			border: none;
+		}
+		
+		
+		/* col width's */
+		/*date*/
+		td, th:nth-child(3) { 
+			padding-left: 40px;
+			padding-right: 40px;
+		}
+		.dayOfWeekColumn {
+			margin-left: 5px;
+			padding-left: 10px;
+			padding-rigth: 10px;
+		}
+		

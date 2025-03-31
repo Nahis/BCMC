@@ -1,0 +1,40 @@
+				#ActualEntryComplete > select { /*similar to rhs btns*/
+					height: 1.5em;
+					font-size: 0.9em;
+					margin-left: 3px;
+					--background-color:#CE9A31 ; /*crm Tan*/
+					--color: white;
+					color: #CE9A31;
+					padding-left: 4px;
+					padding-right: 4px;
+					--margin-top: -1px;
+					margin-top: 1px;
+					padding-top: 6px;
+					padding-top: 0px;
+					padding-bottom: 2px;
+					--font-size: 0.7em;
+					border: none; 
+					cursor: pointer;
+					cursor: hand;
+					vertical-align: middle;
+				}
+				#ActualEntryComplete { /*yes/no txt*/
+						/*class="add-day-button add-day-button-bottom followcolumn crmStyle actualized-days"*/
+					display:inline-block; 
+
+					height: 1.5em;
+					--border: 1px black solid; /*dbg*/
+					border-bottom: 2px #CE9A31 solid;
+					margin:0px; 
+					margin-right: -2px;
+					padding: 0px;
+					padding-top:4px;
+
+					font-size:16px;
+					font-stretch:condensed;
+					font-weight:500;
+					font-size: 0.9em;
+
+					color: #868486; 
+					background-color: white;
+				}

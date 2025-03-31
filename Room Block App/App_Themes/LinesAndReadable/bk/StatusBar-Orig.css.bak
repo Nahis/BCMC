@@ -1,0 +1,70 @@
+				#mySB {
+					display: inline-block;
+					--position: absolute;
+					color: #868486; /*graytext*/
+					background-color: white;
+
+					border-top:1px solid #CE9A31; /*crm Tan*/
+					border-bottom: 2px solid #868486; /*graytext*/
+					width: 100%;
+					padding: 1px 0 3px 0;
+				}
+				#mySB > * {
+					color: #868486; /*graytext*/
+					background-color: white;
+					width: auto;
+					height: 80%;
+					font-size: 0.7em;
+				}
+				#mySB > input { /*rhs buttons*/
+					float: right;
+					vertical-align: central;
+					margin-left: 3px;
+					background-color:#CE9A31 ; /*crm Tan*/
+					color: white;
+					--height: 1.4em;
+					--height: 10%;
+					padding-left: 4px;
+					padding-right: 4px;
+					margin-top: 1px;
+					padding-top: 2px;
+					padding-bottom: 2px;
+					--font-size: 0.7em;
+					border: none;
+					cursor: pointer;
+					cursor: hand;
+				}
+				#mySB > input:first-child {
+					margin-right: 4px;
+				}
+				#mySB_lhs {
+					text-align: left;
+					overflow: hidden;
+				}
+
+				/*notify block*/
+				#mySB > span > span {
+					border-right: 1px solid;
+					padding: 0 3px;
+				}
+
+				/*pre/prior*/
+				#mySB > span div {
+					position:relative;
+					display: inline-block;
+					font-size:70%;
+					border: none;
+				}
+				#mySB > span div:last-child { /*pre/prior*/
+					display: inline-block;
+				}
+				#mySB  .fld-value {
+					color: #626262; /*crm darkGray values*/
+					color: black;
+				}
+
+				.spare {
+					font-size:14px;
+					font-stretch:condensed;
+					font-weight:500;
+				}

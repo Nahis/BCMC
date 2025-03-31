@@ -1,0 +1,149 @@
+			.add-day-button-container {
+				display: block;
+				position: relative;
+				white-space: nowrap;
+
+				top: 0; 
+				width: 500px;
+				--height:15px;
+				--margin-bottom:14px;
+				height: auto;
+				padding: 0;
+				margin-bottom: -4px;
+			}
+
+			
+			/*Top button UP: 
+				add-day-button add-day-button-bottom followcolumn crmStyle actualized-days add-day-button-2 add-day-button-up    	TOP
+				add-day-button add-day-button-bottom followcolumn crmStyle actualized-days add-day-button-2 add-day-button-up			BOTTOM
+			Top button DOWN
+				add-day-button add-day-button-bottom followcolumn crmStyle actualized-days add-day-button-2 add-day-button-down
+				add-day-button add-day-button-bottom followcolumn crmStyle actualized-days add-day-button-2 add-day-button-down
+			Btn text top: 
+				add-day-button add-day-button-bottom followcolumn crmStyle actualized-days"
+				add-day-button add-day-button-bottom followcolumn crmStyle actualized-days
+					style="cursor: default; color: #868486; background-color: white; border: none; margin:0px; padding: 0px;padding-top:1px; display:inline-block; " TOP
+					style="cursor: default; color: #868486; background-color: white; border: none; margin:0px; padding: 0px;padding-top:1px;	BOTTOM
+			
+			*/
+			/*.add-day-button {
+				font-size: 10px;
+				color: #ffffff;
+				font-weight:900;
+				text-align: center;
+				--width: 80%;
+				background-color: #CE9A31;
+			}*/
+
+	
+			/*.add-day-button {
+				--font-size: 10px;
+				--color: #ffffff;
+				--font-weight:900;
+				--width: 80%;
+				--background-color: #CE9A31;
+
+				--white-space: nowrap;
+				--color: #ffffff;
+				--background-color: #CE9A31;
+				--font-size:14px;
+				--font-stretch:condensed;
+				--font-weight:500;
+			}*/
+			.add-day-button { /*follow-grid-column*/
+				--position: absolute;
+			}
+			.add-day-button, .add-day-button-spacer {
+				display:inline-block;
+				width:7px; 
+				height: 13px;  
+				
+				--font-size:11px;
+				--text-align: center;
+
+				padding:0 4px;
+				--margin: 1px auto 3px auto;
+				margin: 0;
+
+				background-size: auto; 
+				--background-position: 50% 50%; --center;
+				background-repeat:no-repeat;
+				background-position-y: -3px;
+				
+				--border-bottom: 0.5px outset black;
+			}
+			.add-day-button:hover {
+				--background-color: #CF9C34; /*lightgoldenrodyellow;*/
+				cursor: pointer; 
+				cursor: hand;
+			}
+			.add-day-button-up {
+				background-image: url('../Images/crmUpArrow-Blue.jpg');
+			}
+			.add-day-button-down {
+				background-image: url('../Images/crmDownArrow-Blue.jpg');
+			}
+			.add-day-button-text {
+				cursor: none; 
+				
+				font-size: 10px;
+				vertical-align: top;
+				color: #868486; 
+				background-color: white; 
+				border: none; 
+				
+				margin:0px; 
+				padding: 0px;
+				--padding-top:1px;
+				width: auto;
+			}
+			.add-day-button-spacer {
+				--display: none;
+				width:0; padding: 0; border: none; margin: 0;
+			}
+			
+			
+			
+			
+			/*debug
+			.add-day-button-container {
+				border: 1px solid black;
+				background: green;
+				--margin-left: -200px;
+				--padding-left: 30px;
+				--height: 50px;
+			}
+			.add-day-button, .add-day-button-spacer{
+				position: static;
+				border: 1px solid black;
+				--background: yellow;
+				--width: 33;
+				--height: 33;
+			}
+			.add-day-button-text {
+				position: static;
+				background: yellow;
+				--top: 0;
+				--padding-top: -30px;
+				--margin-top: -40px;
+			}
+			.add-day-button-spacer {
+				--display: none;
+				background: cyan;
+				--padding: 1px;
+			}
+			.add-test {
+				--cursor: hand;
+				--font-size: 0px;
+				--text-align: top;
+				--line-height: 2px;
+				--vertical-align: top;
+			}
+			.add-day-button-up {
+				--background-image: url('999/crmUpArrow-Blue.jpg');
+			}
+			.add-day-button-down {
+				--background-image: url('999/crmDownArrow-Blue.jpg');
+			}*/
+
+

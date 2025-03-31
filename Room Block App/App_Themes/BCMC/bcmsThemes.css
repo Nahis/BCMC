@@ -1,0 +1,151 @@
+﻿body
+{
+    margin: 0;
+	padding: 0;
+	height: 100%;
+	background-color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif, "Arial Rounded MT Bold";
+}
+
+
+.Date_txtbox
+{
+	background-color: #FFFFFF;
+	border: solid 1px #c3c3c3;
+	padding: 1px 3px 1px 3px;
+	width: 80px;
+}
+
+.lbl_txt
+{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	text-decoration: none;
+	font-style: normal;
+	height: 19px;
+}
+
+.panel
+{
+	border: solid 1px #c3c3c3;
+	background-color: #f8f8f8;
+}
+
+.tab_btmtd_br
+{
+	border-bottom: solid 1px #808080;
+	padding: 5px;
+	background-image: url(../ZyApps/Images/tab_bg.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+	background-color: #FFFFFF;
+	height:10px;
+}
+
+
+/*td + td, th + th {
+    padding-left: 0.3em;
+}
+td + td::before, th + th::before {
+    content: '';
+    border-left: 2px solid #000;
+    //position: absolute;
+    height: 90%;
+    left: 0;
+    top: 25%;
+}*/
+
+.gridHeader
+{   
+    background-color: #4682B4;
+    border: solid 2px #7286A2;	
+	padding: 5px;
+	color: White;
+	font-weight: bold;
+
+	font-family: Arial, Helvetica, sans-serif;
+    border: none;
+	border-left: 0px;	
+	border-right: 0px;	
+    border-top: solid 2px #7286A2;	
+    border-bottom: solid 2px #7286A2;	
+	background-color: white;
+	color: black;
+
+
+   /* background-color: #4682B4;
+	border: solid 1px #7286A2;
+	padding: 5px;
+	color: White;
+	font-weight: bold;
+   
+	
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url(images/tabbg_03.jpg);
+	color: white;
+	font-weight: bold;
+	background-repeat: repeat-x;
+	height: 23px;*/
+	
+	
+	
+	/*background-color: #d6d5d5;
+	/*background-color: #EAF3FF;
+	background-color :#F0F0F0;
+	border: solid 1px #7286A2;
+	padding: 5px;
+	color: Gray  ;
+	font-weight: bold;*/
+}
+.cal
+{
+    width :1px;
+    height :1px;
+}
+
+.button1
+{
+    
+    font-family: Arial, Helvetica, sans-serif;
+	background-image: url('../Images/contTab_bg.png');
+	background-repeat: repeat-x;
+	background-color:Blue ;	
+	font-weight: bold;
+	border: solid 0px white;
+	height: 24px;
+	cursor: pointer;
+    
+/* 
+color: Blue ;	
+	background-image: url(images/sbt_btnBG.jpg);
+	padding: 0px 0px 3px 0px;
+	background-image: url(  '../Images/contTab_bg.png' );
+	background-repeat: repeat-x;
+	border: #777e4e 1px solid;
+	min-width: 50px;
+	width: 85px;
+	text-align: center;
+	font-family: Tahoma;
+	font-size: 11px;
+	text-decoration: none;
+	cursor: pointer;*/
+}
+.dropdown
+{
+	font-family: Tahoma;
+	color: #2a2a2a;
+	font-size: 11px;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: normal;
+}
+.cell
+{
+    --font-family: Tahoma,Verdana ,Arial;
+}
+
+/* class themes */
+.c-relative {
+	position: relative;
+	white-space: nowrap;
+}

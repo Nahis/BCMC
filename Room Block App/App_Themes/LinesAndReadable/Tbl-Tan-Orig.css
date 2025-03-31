@@ -1,0 +1,97 @@
+	<%-- Table Headers first, the rest afterwards 
+	compare to TanTheme.css 
+	and tidy up... ytodo
+	--%>
+	
+	<style type="text/css">
+		/* no borders, etc. */
+		th, td {
+			border: none;
+			text-align: center;
+		}
+		input {
+			--text-align: center;
+		}
+
+		/* header */
+		tr th { /*.crmGridHeader*/
+			color: #868486; /*graytext*/
+			font-size: 14px;
+			font-stretch:condensed;
+			font-weight:100;
+			border-top: 2px solid #868486;
+			border-bottom: 1px solid #CE9A31;
+			padding: 14px;
+			margin: 30px;
+		}
+		tr th {
+			padding: 5px 0px;
+			/*
+			--margin: 30px;
+			--background-image:url('App_Themes/Images/grayPoint.jpg');
+			--background-clip:border-box;
+			--background-repeat:repeat-y;
+			--background-origin:content-box;
+			*/
+		}
+
+		/* header vertical rhs line */
+		th {
+			position:relative;
+			text-align:center
+		}
+		/*.crmGridHeader-th-rhs-vert-line:after {*/
+		tr th:after {
+			content:"";
+			position: absolute;
+			z-index: -1;
+			top: 0;
+			bottom: 0;
+			left: 100%;
+			top: 4px;
+			bottom: 5px;
+			border-left: 1px solid #868486; /*graytext*/
+		}
+		tr th:last-child:after{
+			border-left:none;
+		}
+
+
+		/* col width's */
+		/*
+		tr th:nth-child(2) {
+			padding-left: 10px;
+		}
+		tr th:nth-child(2), tr td:nth-child(2) {
+			text-align: left;
+			width:auto;
+		}
+		*/
+		table {
+			width: auto;
+			border: solid 1px #D8D8D8;
+			border: none;
+		}
+		tr > th, 
+		tr > td,
+		tr input[type=text] {
+			width: auto;
+			padding-left: 6px;
+			padding-right: 6px;
+			text-align: left;
+		}
+		
+		td, 
+		td input[type="text"] {
+			font-size: 11px;
+		}
+
+		tr > th,
+		tr > td {
+			text-align: center;
+		}
+		tr input[type=text] {
+			text-align: center;
+		}
+		
+	</style>
