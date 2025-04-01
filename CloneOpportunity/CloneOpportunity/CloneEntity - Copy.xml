@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Entities>
+	<parentEntity name="opportunity" ignoreField="bcmc_eventyear">			
+		<childEntity name="customeropportunityrole" entityNameField="name"/>
+		<childEntity name="new_eventsite" entityNameField="new_name"/>			
+	</parentEntity>
+
+	<!-- Make the below 3 entries are always listed at the bottom of the list-->
+</Entities>
+

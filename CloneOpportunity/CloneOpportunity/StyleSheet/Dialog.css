@@ -1,0 +1,67 @@
+BODY
+{
+font-size: 11px;
+margin:	0px;
+border: 0px;
+cursor: default;
+scrollbar-3dlight-color:#6699CC;
+scrollbar-arrow-color:#567DB1;
+scrollbar-base-color:#D6E8FF;
+scrollbar-darkshadow-color:#6699CC;
+scrollbar-face-color:white;
+scrollbar-highlight-color:#D6E8FF;
+scrollbar-shadow-color:#D6E8FF;
+overflow: hidden;
+background-color:#E3EFFF;
+}
+
+TD
+{
+font-size: 11px;
+}
+
+BODY, INPUT, SELECT, TEXTAREA
+{
+font-family : Tahoma, Verdana, Arial;
+}
+
+BUTTON
+{
+font-family: Tahoma;
+font-size: 11px;
+height: 20px;
+width: 84px;
+text-align: center;
+cursor: pointer;
+border: 1px #3366CC solid;
+background-color: #CEE7FF;
+background-image: url('/_imgs/btn_rest.gif');
+background-repeat: repeat-x;
+border: 1px #3366CC solid;
+padding-left: 5px;
+padding-right: 5px;
+}
+
+TD.ms-crm-Dialog-Header
+{
+background-color:#6693CF;
+color:			#ffffff;
+border-bottom:	1px solid #6693CF;
+height:			51px;
+vertical-align:	top;
+padding:		5px;
+}
+
+DIV.ms-crm-Dialog-Header-Title
+{
+font-weight:	bold;
+font-size:		13px;
+padding-left:	5px;
+}
+
+DIV.ms-crm-Dialog-Header-Desc
+{
+padding-top:	4px;
+padding-left:	5px;
+
+}

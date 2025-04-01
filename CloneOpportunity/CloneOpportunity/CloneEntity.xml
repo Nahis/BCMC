@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Entities>
+	<parentEntity name="opportunity" ignoreField="bcmc_eventyear,new_arrivaldate,new_departuredate,bcmc_hotelleadresponsedate,bcmc_internalnotes,new_targetevent,bcmc_moveindate,bcmc_showstartdate,bcmc_showenddate,bcmc_moveoutdate,new_foodandbeveragerevenue,new_fbrevtotal,new_yearsopenforboston,estimatedclosedate,new_grossrental,estimatedvalue,bcmc_discount,new_rentalrationale,new_concurrentoccupancy,new_reasonswhywewontwin,bcmc_salesprocessupdate,new_rfpreceiveddate,new_eventstartdate,new_pricepresentationdate,new_proposaldate,bcmc_proposalsentdate,bcmc_leadissueddate,new_elacontractprocessdate,bcmc_elacontractduedate,bcmc_definitedate,new_hotelcontractdate,bcmc_turnovercompletiondate,bcmc_secondarylossreason,bcmc_economicimpact,new_numberofattendees,statuscode,stepname,processid,stageid">
+		<childEntity name="customeropportunityrole" entityNameField="name"/>
+		<childEntity name="new_eventsite" entityNameField="new_name" documentation="This is event_history entity"/>			
+	</parentEntity>
+
+	<!-- Make the below 3 entries are always listed at the bottom of the list-->
+	<!--
+		Possible settings...?
+		<childEntity name="new_eventsite" entityNameField="new_name" generateQuoteFromOpportunity="true"/>			
+	-->
+</Entities>
+

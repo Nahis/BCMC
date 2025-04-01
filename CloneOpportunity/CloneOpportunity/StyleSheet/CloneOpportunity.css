@@ -1,0 +1,340 @@
+﻿.pnlGeneral
+{
+	border-width:1pt;
+	border-color:  #898C95; 
+	border-style:solid;
+}
+BODY
+{
+	font-size: 11px;
+    margin: 0px;
+    border: 0px;
+    background-color: #EAF3FF;
+    cursor: default;
+	scrollbar-3dlight-color:#6699CC;
+	scrollbar-arrow-color:#567DB1;
+	scrollbar-base-color:#D6E8FF;
+	scrollbar-darkshadow-color:#6699CC;
+	scrollbar-face-color:white;
+	scrollbar-highlight-color:#D6E8FF;
+	scrollbar-shadow-color:#D6E8FF;
+
+}
+
+button 
+{
+   background-color:    #acc0e9;
+   padding:          2px 4px 3px 4px;
+   color:             #000000;
+   font-size:         8pt;
+   font-family:      tahoma;
+   height:            18px;
+   filter:          progid:DXImageTransform.Microsoft.Gradient(GradientType=0,
+             StartColorStr=#ffffff, EndColorStr=#91A9D0);
+   border-width:       0px;
+   cursor: pointer;
+   width:50px;
+}
+
+select
+{
+width: 125px;
+height: 20px;
+border: 1px solid #7b9ebd;
+border-right: 0px;
+padding-left: 5px;
+font-size: 8pt;
+cursor: default;
+}
+INPUT
+{
+	border :1px solid #7b9ebd;
+	
+}
+td.expand 
+{
+   
+   padding:          2px 4px 3px 4px;
+   color:             #000000;
+   font-size:         8pt;
+   font-family:      tahoma;   
+   filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#EAF1FF);
+   border-top:1px solid #000000;
+   border-left:1px solid #000000;   
+   border-bottom:1px solid #000000;
+   cursor: pointer;
+}
+.tdHeader
+{
+	font-size: 8pt;
+	font-family: Tahoma;
+	border-bottom: solid 1px #A0A0A4;
+	background-color: #acc0e9;
+	padding-left:5px;
+}
+TD 
+{
+   font-size:         11pt;
+   font-family:      tahoma;
+}
+
+TD.main
+{
+	height:			100%;
+	vertical-align:	middle;
+	text-align: center;
+	border-bottom:	1px solid #cccccc;
+	background-color:	#EEF0F6;
+	height:15Px;
+	padding-left:8px;
+	font-family: Tahoma, Arial, Verdana, Tahoma, Arial;
+	font-size: 8.5pt;
+	font-weight: bold;
+}
+
+TD.row
+{
+	vertical-align:	top;
+	text-align:left;
+	height:15Px;
+	padding-left:8px;
+	border-bottom:	1px solid #cccccc;
+}
+
+TD.img
+{
+	vertical-align:	top;
+	height:15Px;
+	width:18px;
+	border-bottom:	1px solid #cccccc;
+}
+
+TD.bar 
+{
+	border-bottom:1px solid #000000;
+}
+
+td
+{
+	font-size: 11px;
+}
+
+table
+{
+	cursor: default;
+}
+
+a
+{
+    color: #0000ff;
+    font-weight: bold;
+}
+
+	
+div.section
+{
+   width: 100%;
+   height: 100%;
+   overflow-y: auto;   
+   background-color: #EAF3FF;
+scrollbar-3dlight-color:#6699CC;
+scrollbar-arrow-color:#567DB1;
+scrollbar-base-color:#D6E8FF;
+scrollbar-darkshadow-color:#6699CC;
+scrollbar-face-color:white;
+scrollbar-highlight-color:#D6E8FF;
+scrollbar-shadow-color:#D6E8FF;
+
+   	
+}
+.sectionTotal
+{
+background-color: #A9A9A9;
+height: 15px;
+font-family: Tahoma, Arial, Verdana, Tahoma, Arial;
+font-size: 8.5pt;
+font-weight: bold;
+text-align: right;
+}
+
+
+.sectionSelectedTotal
+{
+background-color: #D3D3D3;
+height: 15px;
+font-family: Tahoma, Arial, Verdana, Tahoma, Arial;
+font-size: 8.5pt;
+font-weight: bold;
+text-align: right;
+}
+
+.sectionSelectedHeader
+{
+background-color: #D3D3D3;
+height: 15px;
+font-family: Tahoma, Arial, Verdana, Tahoma, Arial;
+font-size: 8.5pt;
+font-weight: bold;
+text-align: left;
+}
+
+.sectionTotalHeader
+{
+background-color: #A9A9A9;
+height: 15px;
+font-family: Tahoma, Arial, Verdana, Tahoma, Arial;
+font-size: 8.5pt;
+font-weight: bold;
+text-align: left;
+}
+
+.ListHead
+{
+background-color: #E0E3E8;
+height: 15px;
+color: #000000;
+font-family: Tahoma, Arial, Verdana, Tahoma, Arial;
+font-size: 8.5pt;
+font-weight: bold;
+text-align: left;
+cursor: default;
+font-weight: normal;
+background-image:url(../images/img_mnusep.gif);
+background-repeat: no-repeat;
+padding-left: 8px;
+padding-right: 2px;
+border : 0px;
+border-bottom : solid 1px #A0A0A4;
+}
+
+
+
+.button
+{
+filter:	progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#cecfde);
+cursor:	hand;
+font-size: 11px;
+padding-left: 5px;
+padding-right: 5px;
+border:	1px solid #7b9ebd;
+font-family:Tahoma;
+
+}
+
+.amountColumn
+{
+	vertical-align:	top;
+	height:15Px;
+	padding-left:8px;
+	border-bottom:	1px solid #cccccc;
+	text-align: right;
+}
+
+.redBar
+{
+	vertical-align: middle;
+	background-Color:#FE7879;
+}
+
+.boldText
+{
+font-family: Tahoma;
+font-size: 11px;
+font-weight: bold;
+text-align: left;
+}
+
+.headertext
+{	
+	font-size: 14px;
+	font-family: Tahoma;
+	padding:5px 5px 5px 5px;
+	text-align: left;
+	font-weight:bolder;
+}
+.linkText
+{
+	font-size: 11px;
+	font-family: Tahoma;
+	padding :0px 0px 0px 0px;
+	text-align: left;
+	text-decoration : underline;
+	font-weight : normal;
+	color : Black;
+	cursor : hand;
+}
+.normalText
+{
+	font-size: 11px;
+	font-family: Tahoma;
+	
+	text-align: left;
+	text-decoration : none;
+	font-weight : normal;
+	color : Black;
+	cursor : default;
+}
+
+.titleText
+{
+	font-size: 12px;
+	font-family: Tahoma;
+	
+	text-align: left;
+	text-decoration : none;
+	font-weight : normal;
+	color : Black;
+	cursor : default;
+}
+.treeNodeText
+{
+	font-size: 11px;
+	font-family: Tahoma;
+	
+	text-align: left;
+	text-decoration : none;
+	font-weight : normal;
+	color : Black;
+	cursor : default;
+	padding-left:3px;
+}
+.Errmsg
+{	
+	text-align : center;
+	font-size: 11px;
+	font-family: Tahoma;
+	padding:5px 5px 5px 5px;
+	color:red;
+	
+}
+
+.Successmsg
+{	
+	text-align : center;
+	font-size: 11px;
+	font-family: Tahoma;
+	padding:5px 5px 5px 5px;
+	color:Green;
+	
+}
+.saveBtn
+{
+	cursor:hand;
+}
+.textBox
+{
+	color: #000000;
+font-size: 11px;
+border:1px solid #6699cc;
+height:16px;
+font-family:Tahoma;
+}
+
+/*
+.gridViewItemTemplate
+{
+	
+	border-color:#acc0e9 #898C95 #898C95 #898C95;
+	border-width: 0px 1px 1px 1px
+}
+*/
